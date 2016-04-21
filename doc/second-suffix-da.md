@@ -4,12 +4,38 @@ This page is an attempt to list the syllables having invisible second suffix ད
 
 ## non-verbs
 
+### modern Tibetan
+
 The following seem to consensually have a second suffix ད:
 
 - ཀུན
 - དཀོན (given in JB)
 - ཤིན
 - འོན
+
+### archaic Tibetan
+
+An analysis from the Dunhuang corpus shows that following syllables take a second suffix ད:
+
+- ཀུན
+- དཀྱིལ
+- མགུར
+- རྒྱལ
+- ངན
+- མཇལ
+- དལ
+- དོན
+- གདོན
+- པར
+- པུར
+- དབྱར
+- བཙན
+- རྩལ
+- ཟན
+- འོན
+- ཡུན
+- ལན
+- ཤིན
 
 ## verbs
 
