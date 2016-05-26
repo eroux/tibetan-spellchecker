@@ -94,6 +94,7 @@ The following grammatical suffixes can appear if the syllable have no suffix, or
 
 - འི
 - འོ
+- འིའོ (extremely rare, found in some Sutras)
 - འང
 - འམ
 - ར
