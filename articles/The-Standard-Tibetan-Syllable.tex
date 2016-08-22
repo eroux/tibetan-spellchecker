@@ -1,0 +1,95 @@
+\documentclass[%
+a4paper,% paper size
+pagesize,%
+12pt,% text size
+parskip=off,% inter-paragraph space, automatically sets paragraph indentation
+bibliography=totoc,% bibliography in the table or contents
+numbers=noenddot,%
+DIV=12,% margin settings
+twoside=semi,% right and left difference, but same margins
+headings=normal%headings=medium,% small headings
+]{scrartcl}
+
+\title{The Standard Tibetan Syllable}
+\subtitle{Composition rules and analysis}
+\author{Hélios Hildt (Université Bordeaux Montaigne) \and Élie Roux} 
+\date{\today}
+
+\usepackage{tib-articles}
+\usepackage[numbers,square]{natbib} % These need to be in this file!
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Documents describing the composition of the standard tibetan syllable in a superficial way can be easily found in both Tibetan and Western language, but these miss many common features and rules. This document is an attempt to have a complete description on how a standard Tibetan syllable is built and how it can be analyzed, which we hope will provide a solid basis for NLP areas such as spell checking and collation.
+\end{abstract}
+
+\keywords{Tibetan, NLP, Spellchecking, Unicode}
+
+\tableofcontents
+
+\newpage
+
+\section*{Introduction}
+
+This document supposes a minimal prior knowledge on the Tibetan alphabet. We will discuss the composition of a written standard tibetan syllable (ཚིག་འབྲ).
+
+\section{Basic syllabic elements}
+
+­\subsection{Main elements}
+
+A Standard Tibetan Syllable is traditionally described as being composed of a maximum of 8 elements :
+
+\begin{description}
+  \item[one root letter (མིང་གཞི)] among the 30 standard tibetan letters (ཀ to ཨ)
+  \item[zero or one (0/1) vowel (དབྱངས):] {\tibetanfont ◌}ི {\tibetanfont ◌\kern 0.5mm}ུ {\tibetanfont ◌}ེ or {\tibetanfont ◌}ོ
+  \item[0/1 superscript letter (མགོ་ཅན):] ར ལ or ས
+  \item[0/1 subscript letter (འདོགས་ཅན):] ྱ ྲ or ླ
+  \item[0/1 wasur (ཝ་ཟུར):] ྺ
+  \item[0/1 prefix (སྔོན་འཇུག):] ག ད བ མ or འ
+  \item[0/1 first suffix (རྫེས་འཇུག):] ག ང ད ན བ མ འ ར ལ or ས
+  \item[0/1 second suffix (ཡང་འཇུག):] ས
+\end{description}
+
+Note that in traditional presentations, the wasur is counted among the subscript letters. We chose not to present things this way becauses it poses difficulties when the wasur is combined with another subscript letter, as in གྲྭ.
+
+­\subsection{Grammatical inflection}
+
+­\subsection{Diminutive element (འུ)} 
+
+­\subsection{Archaic elements}
+
+­\section{Rules of composition}
+
+­\subsection{Parallel with other languages}
+
+­\subsection{Basic rules}
+
+­\subsection{More advanced rules}
+
+­\subsection{Role the འ suffix}
+
+\subsection{Role of the Wasur}
+
+­\subsection{Rare suffixes}
+The འུ suffix
+
+­ 
+
+­\subsection{Exceptions}
+
+The case of འོ and འི suffixes
+
+­\subsection{Rules of decomposition}
+
+­\subsection{Basic rules}
+
+­\subsection{Ambiguous syllables}
+
+­\appendix{list of words containing the འུ suffix or wasurs}
+
+\bibliographystyle{plainnat}
+\bibliography{tibliographyltx}
+\end{document}
