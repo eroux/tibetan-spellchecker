@@ -122,7 +122,7 @@ The only valid combinations of superscript + main + subscript + second subscript
   - སྐ སྒ སྔ སྙ སྟ སྡ སྣ སྤ སྦ སྨ སྩ
   - ཀྭ ཁྭ གྭ ཉྭ ཏྭ དྭ ཙྭ ཚྭ ཞྭ ཟྭ རྭ ལྭ ཤྭ སྭ ཧྭ
   - ཀྱ ཁྱ གྱ པྱ ཕྱ བྱ མྱ
-  - ཀྲ ཁྲ གྲ ཏྲ ཐྲ དྲ པྲ ཕྲ བྲ མྲ ཤྲ སྲ ཧྲ
+  - ཀྲ ཁྲ གྲ ཏྲ ཐྲ དྲ པྲ ཕྲ བྲ མྲ སྲ ཧྲ
   - ཀླ གླ བླ ཟླ རླ སླ
   - རྐྱ རྒྱ རྨྱ
   - སྐྱ སྒྱ སྤྱ སྦྱ སྨྱ
@@ -131,7 +131,7 @@ The only valid combinations of superscript + main + subscript + second subscript
 
 The source is [the list by Chris Fynn](https://sites.google.com/site/chrisfynn2/home/tibetanscriptfonts/thetibetanwritingsystem/tibetanlettercombinations), merged with NT and TSH.
 
-Note that TSH doesn't list ཏྭ, ཙྭ, སྭ (found in བསྭ་སྒྲ་), མྲ, ཤྲ, སྟྭ (found in སྟྭ་རེ་) nor དྲྭ (contraction of དྲ་བ་).
+Note that TSH doesn't list ཏྭ, ཙྭ, སྭ (found in བསྭ་སྒྲ་), མྲ (found in ཨ་མྲ), སྟྭ (found in སྟྭ་རེ་) nor དྲྭ (contraction of དྲ་བ་). NT also lists ཤྲ but without providing an example, and we were not able to find any standard Tibetan syllable containing it.
 
 ### Constraints on prefix and superscript letter
 
@@ -152,7 +152,7 @@ The only valid combinations of prefix + superscript letter + main letter + subsc
   - པ པྱ པྲ དཔ དཔྱ དཔྲ ལྤ སྤ སྤྱ སྤྲ
   - ཕ ཕྱ ཕྲ འཕ འཕྱ འཕྲ
   - བ བྱ བྲ བླ དབ དབྱ དབྲ འབ འབྱ འབྲ རྦ ལྦ སྦ སྦྱ སྦྲ
-  - མ མྱ མྲ དམ དམྱ དམྲ རྨ རྨྱ སྨ སྨྱ སྨྲ
+  - མ མྱ དམ དམྱ རྨ རྨྱ སྨ སྨྱ སྨྲ
   - ཙ གཙ བཙ རྩ སྩ བརྩ བསྩ
   - ཚ མཚ འཚ
   - ཛ མཛ འཛ རྫ བརྫ
@@ -162,13 +162,13 @@ The only valid combinations of prefix + superscript letter + main letter + subsc
   - འ
   - ཡ གཡ
   - ར རླ བརླ
-  - ལ ལྭ
+  - ལ
   - ཤ གཤ བཤ
   - ས སྲ སླ གས བས བསྲ བསླ
   - ཧ ཧྲ ལྷ
   - ཨ
 
-TSH does not include བགླ nor མདྲ in his list, but lists them as exceptions for valid syllables བགླ་ and མདྲོན་.
+TSH does not include བགླ nor མདྲ in his list, but lists them as exceptions for valid syllables བགླ་ and མདྲོན་. We can also consider མྲ as an exception.
 
 The wasurs are not included in this list, as it seems easier to consider them as exceptions.
 
