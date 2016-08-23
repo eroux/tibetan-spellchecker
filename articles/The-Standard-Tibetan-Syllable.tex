@@ -38,7 +38,7 @@ This document supposes a minimal prior knowledge on the Tibetan alphabet. We wil
 
 \section{Basic syllabic elements}
 
-­\subsection{Main elements}
+­\subsection{Traditional description}
 
 A Standard Tibetan Syllable is traditionally described as being composed of a maximum of 8 elements :
 
@@ -55,11 +55,37 @@ A Standard Tibetan Syllable is traditionally described as being composed of a ma
 
 Note that in traditional presentations, the wasur is counted among the subscript letters. We chose not to present things this way becauses it poses difficulties when the wasur is combined with another subscript letter, as in གྲྭ.
 
-­\subsection{Grammatical inflection}
+\subsection{Rare suffixes}
 
-­\subsection{Diminutive element (འུ)} 
+Tibetans seem to consider other suffixes as valid suffixes, although they never appear in traditional descriptions. They are འུ, འི, འེ and འོ (note that we are talking here about real suffixes, not marks of སླར་བསྡུ or འབྲེལ་སྒྲ). See Appendix 1 for a list of words using these rare suffixes.
+
+\begin{description}
+ \item[འུ] is quite common but surprisingly undocumented (ex: བྱིའུ)
+ \item[འོ] is very rare (བྲའོ or སླེའོ)
+ \item[འི] has been indicated to us by Tibetan experts but no convincing example was provided\footnote{This suffix can be found in the onomatopoeia ཀྭའི, but it is not clear whether or not it can be considered as standard Tibetan.}
+ \item[འེ] is indicated in \cite{TournadreMST} with no example
+\end{description}
+
+For all features described in this article, these rare suffixes behave like regular suffixes, so we will consider them as such.
+
+­\subsection{Affixed particles}
+
+When a syllable has no suffix or suffix འ, it may carry an affixed particle (ཕྲད) according to the context. When the affixed particle is applied ona syllable with suffix འ, this suffix is replaced by the particle.
+
+The traditional list of affixed particles is འི འོ འང འམ ར and ས. They are implicitely presented as mutually exclusive, but our research shows that འིའོ (combination of འི and འོ), although very rare\footnote{it can be found around 200 time in the Derge Kangyur}, is considered standard Tibetan by our informants.
 
 ­\subsection{Archaic elements}
+
+Before the orthograph reform of King རལ་པ་ཅན in the \textsc{IX}th century \textsc{C.E.}\footnote{this reform is sadly completely undocummented in Western language. For some documents predating the reform, see some parts of the Dunuang corpus available at \url{https://github.com/eroux/Dunhuang-unicode}}, some elements of the syllable were different:
+
+\begin{itemize}
+\item a second suffix ད (called ད་དྲག)
+\item the vowel {\tibetanfont ◌}ི was often written {\tibetanfont ◌}ྀ (for unknown reasons)
+\item the affixed particle ས was written འྀས
+\item the affixed particle ར was written འར
+\end{itemize}
+
+Note that the last two differences allowed simple disambiguation between the ར and ས suffixes and their affixed particle equivalent; while in modern Tibetan, the orthograph is the same and the context must be used to disambiguate.
 
 ­\section{Rules of composition}
 
@@ -67,7 +93,60 @@ Note that in traditional presentations, the wasur is counted among the subscript
 
 ­\subsection{Basic rules}
 
+The basic rules (or constraints) to compose a well-formed tibetan syllable can be found in many places (\cite[TournadreMST], \cite{TsheshabGrammarTopics}). They are restrictions on the possible combinations of superscript + rootletter + subscript. Ignore wasurs (as they will be discussed in a separate section), the possible combinations (not counting the raw root letters) exposed in \cite{TsheshabGrammarTopics} can be summed up as follows:
+
+\begin{itemize}
+\item རྐ རྒ རྔ རྗ རྙ རྟ རྡ རྣ རྦ རྨ རྩ རྫ
+\item ལྐ ལྒ ལྔ ལྕ ལྗ ལྟ ལྡ ལྤ ལྦ ལྷ
+\item སྐ སྒ སྔ སྙ སྟ སྡ སྣ སྤ སྦ སྨ སྩ
+\item ཀྱ ཁྱ གྱ པྱ ཕྱ བྱ མྱ
+\item ཀྲ ཁྲ གྲ ཏྲ ཐྲ དྲ པྲ ཕྲ བྲ སྲ ཧྲ
+\item ཀླ གླ བླ ཟླ རླ སླ
+\item རྐྱ རྒྱ རྨྱ
+\item སྐྱ སྒྱ སྤྱ སྦྱ སྨྱ
+\item སྐྲ སྒྲ སྣྲ སྤྲ སྦྲ སྨྲ
+\end{itemize} 
+
+Our research in the main dictionaries\footnote{\cite{DorjeDagyig}, \cite{YisunTsikchen}, \cite{MonlamGrandDict} and \cite{DungkarEncyclopedia}.} showed that མྲ is also a standard possibility, only found in ཨ་མྲ (mango), so we consider it as an exception. \cite{TournadreMST} also lists ཤྲ, without giving any example, and we were not able to find any in the dictionaries we consulted, so we do not consider it standard in this document.
+
 ­\subsection{More advanced rules}
+
+An interesting feature of \cite{TsheshabGrammarTopics} that we were not able to find anywhere else is a more complete set of constaints including the prefix. The following list of all valid combinations of prefix + superscript + root letter + subscript can be easily built from the text, and constitutes an important contribution by this article:
+
+\begin{itemize}
+\item ཀ ཀྱ ཀྲ ཀླ དཀ དཀྱ དཀྲ དཀླ བཀ བཀྱ བཀྲ བཀླ རྐ རྐྱ ལྐ སྐ སྐྱ སྐྲ བརྐ བརྐྱ བསྐ བསྐྱ བསྐྲ
+\item ཁ ཁྱ ཁྲ མཁ མཁྱ མཁྲ འཁ འཁྱ འཁྲ
+\item ག གྱ གྲ གླ དག དགྱ དགྲ བག བགྱ བགྲ བགླ མག མགྱ མགྲ འག འགྱ འགྲ རྒ རྒྱ ལྒ སྒ སྒྱ སྒྲ བརྒ བརྒྱ བསྒ བསྒྱ བསྒྲ
+\item ང དང མང རྔ ལྔ སྔ བརྔ བསྔ
+\item ཅ གཅ བཅ ལྕ
+\item ཆ མཆ འཆ
+\item ཇ མཇ འཇ རྗ ལྗ བརྗ
+\item ཉ གཉ མཉ རྙ སྙ བརྙ བསྙ
+\item ཏ ཏྲ གཏ གཏྲ བཏ བཏྲ རྟ ལྟ སྟ བརྟ བལྟ བསྟ
+\item ཐ ཐྲ མཐ འཐ
+\item ད དྲ གད བད མད མདྲ འད འདྲ རྡ ལྡ སྡ བརྡ བལྡ བསྡ
+\item ན གན མན རྣ སྣ སྣྲ བརྣ བསྣ
+\item པ པྱ པྲ དཔ དཔྱ དཔྲ ལྤ སྤ སྤྱ སྤྲ
+\item ཕ ཕྱ ཕྲ འཕ འཕྱ འཕྲ
+\item བ བྱ བྲ བླ དབ དབྱ དབྲ འབ འབྱ འབྲ རྦ ལྦ སྦ སྦྱ སྦྲ
+\item མ མྱ དམ དམྱ རྨ རྨྱ སྨ སྨྱ སྨྲ
+\item ཙ གཙ བཙ རྩ སྩ བརྩ བསྩ
+\item ཚ མཚ འཚ
+\item ཛ མཛ འཛ རྫ བརྫ
+\item ཝ
+\item ཞ གཞ བཞ
+\item ཟ ཟླ གཟ བཟ བཟླ
+\item འ
+\item ཡ གཡ
+\item ར རླ བརླ
+\item ལ
+\item ཤ གཤ བཤ
+\item ས སྲ སླ གས བས བསྲ བསླ
+\item ཧ ཧྲ ལྷ
+\item ཨ
+\end{itemize}
+
+\cite{TsheshabGrammarTopics} cites two exceptions of standard syllables not fitting in these constraints: བགླ and མདྲོན, to which we can add མྲ.
 
 ­\subsection{Role the འ suffix}
 
