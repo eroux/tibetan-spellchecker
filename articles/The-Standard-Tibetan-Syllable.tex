@@ -159,17 +159,55 @@ An interesting feature of \cite{TsheshabGrammarTopics} that we were not able to 
 
 \cite{TsheshabGrammarTopics} cites two exceptions of standard syllables not fitting in these constraints: བགླ and མདྲོན, to which we can add མྲ.
 
-\subsection{Rules for the second suffix}
+\subsection{Rules for the suffixes and second suffixes}
+
+There seems to be no rule for suffixes (except འ discussed in next section): any suffix can appear after any combinaison of prefix, subscript, root letter, subscript, vowel and wasur.
+
+The second suffix ས can only appear after the suffixes ག, ང, བ and མ. The archaid second suffix ད can only appear after suffix ན, ར or ལ.
 
 ­\subsection{Rules for the འ suffix}
 
-The འ suffix is quite special as it is
+The འ suffix has some rules that are quite simple but surprisingly undocumented. It is used only to disambiguate syllables. When reading syllables, Tibetans consider that when a syllable is composed of two consonnants with no other sign (no superscript, subscript or vowel), then the first is the root letter (see \ref{decompositionrules}). So for instance the syllable བཟ is not valid because it would be decomposed as root letter བ and suffix ཟ, which is an invialid suffix. If one wants to write prefix བ and root letter ཟ, then he must add the suffix འ: བཟའ. This suffix seems to have no other use. 
+
+To sum up, the suffix འ can only appear in a syllable where there is exactly:
+
+\begin{itemize}
+\item one prefix
+\item no superscript
+\item no subscript
+\item no vowel
+\end{itemize}
+
+In our research we were able to find only two very questionable exceptions to this rule: བརྡའ (mispelling for བརྡ) and བརྟའ (found only in \cite{KhartoTenses}, which is not considered very reliable by our Tibetan informants).
+
+\subsubsection*{Note on the use of the འ suffix in archaic Tibetan}
+
+In archaic Tibetan, the role of the འ suffix is quite unclear\footnote{\cite{TournadreMST} states that it appeared when a vowel is present and gives རིའ (mountain) as an example.}. In the Dunhuang corpus, many of its use correspond to the current one, but it's also used in other cases such as the very common རྒྱའ, པའ or ནའ. A careful study about this would be interesting but goes far beyond the scope of this document.
 
 \subsection{Rules for the Wasur}
 
-­
+\subsubsection*{Traditional rules}
+
+­The wasur is traditionally treated as a regular subscript letter, and the list of valid combinations is ཀྭ ཁྭ གྭ ཉྭ དྭ ཚྭ ཞྭ ཟྭ རྭ ལྭ ཤྭ ཧྭ གྲྭ རྩྭ ཕྱྭ (list given in \cite{TsheshabGrammarTopics}). \cite{TournadreMST} also cites ཏྭ, ཙྭ and སྭ.
+
+\subsubsection*{Proposal}
+
+These rules are unsatisfying for the purpose of spell checking for two reasons.
+
+The first is that they are quite incomplete as they do not take སྟྭ (found in སྟྭ་རེ་) and དྲྭ (contraction of དྲ་བ་) into account.
+
+The second is that there are so few standard tibetan syllables including a wasur compared to the many different possibilities, that it is much more satisfying to treat these words as exceptions. This is backed by the following arguments:
+
+\begin{itemize}
+\item the wasur seems to have no influence on prononciation, in all regions
+\item when inventing new words, Tibetans don't seem to use wasurs\footnote{Not a single wasur appears in the 188 pages of \cite{TseringIT} for instance.}
+\item tibetan grammarians seem a little embarassed with the role of the wasur and some consider it only as a disambiguation sign, see \ref{wasurdisambiguation}
+\end{itemize}
+
+Our opinion is thus to consider the wasur as an historical feature of the syllable, present in a set of syllable that can be listed. Our attempt at a list of standard Tibetan syllable with wasurs can be found in Annex 1.
 
 ­\subsection{Transcription of foreign sounds}
+
 
 
 ­\subsection{Rules of decomposition}
@@ -182,7 +220,7 @@ What we propose here is to find the main stack, meaning the combination of 1 roo
 
 The following rules are meant to be applied in this particular order, and should be easy to implement for NLP purposes:
 
-\subsubsection*{Simple cases}
+\subsubsection*{Simple cases}\label{decompositionrules}
 
 \begin{description}
 \item[1] if the syllable contains a subscript, superscript or wasur then the main stack is what contains it (ex: in དབྱངས the main stack is བྱ because it carries the subscript ྱ)
@@ -235,7 +273,7 @@ Let's review the different forms for cases not involving ད, prefixing by * a f
 \item[དམས:] *ད|མས, དམ|ས, དམ|འ+ས \rightarrow{} \textbf{མ}
 \end{description}
 
-\subsubsection*{Wasur as a disambiguation mark}
+\subsubsection*{Wasur as a disambiguation mark}\label{wasurdisambiguation}
 
 With these disambiguations in mind, we can now challenge a rule given in \cite{MugeGrammar} stating that the wasur is used for disambiguation. This rule states that in the ambiguous cases we described, the second consonnants is the main stack because if it is was the first, then the first would carry a wasur.
 
