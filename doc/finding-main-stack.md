@@ -49,6 +49,6 @@ Here are the different forms:
 - *བག|ས, *བགའ+ས, བ|གས -> བ|གས can be considered definitive
 - *ད|གས, དྭགས, དག|ས, དགའ+ས -> དག|ས can be considered definitive
 - *ད|ངས, *དང|ས, དྭངས, *དངའ+ས -> དང|ས would be the correct way due to the possibility of དྭངས according to LSGT (see [bibliography](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/bibliography.md)) but is never attested; ད|ངས is an attested mispelling of དྭངས so it can be considered definitive
-- *དྭངས, *ད|མས, དམ|ས, དམའ+ས -> དམ|ས can be considered definitive
+- *དྭམས, *ད|མས, དམ|ས, དམའ+ས -> དམ|ས can be considered definitive
 - *འབ|ས, *འ|བས, འབ|འ+ས -> འབ|ས can be considered definitive
 - *འ|གས, འག|ས, འག|འ+ས -> འག|ས can be considered definitive

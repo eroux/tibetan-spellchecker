@@ -57,7 +57,7 @@ A Standard Tibetan Syllable is traditionally described as being composed of a ma
   \item[0/1 subscript letter (འདོགས་ཅན):] ྱ ྲ or ླ
   \item[0/1 wasur (ཝ་ཟུར):] ྭ
   \item[0/1 prefix (སྔོན་འཇུག):] ག ད བ མ or འ
-  \item[0/1 first suffix (རྫེས་འཇུག):] ག ང ད ན བ མ འ ར ལ or ས
+  \item[0/1 first suffix (རྗེས་འཇུག):] ག ང ད ན བ མ འ ར ལ or ས
   \item[0/1 second suffix (ཡང་འཇུག):] ས
 \end{description}
 
@@ -89,7 +89,7 @@ The traditional list of affixed particles is འི འོ འང འམ ར and
 
 ­\subsection{Archaic elements}
 
-Before the orthograph reform of King རལ་པ་ཅན in the \textsc{IX}th century \textsc{C.E.}\footnote{this reform is sadly completely undocummented in Western language. For some documents predating the reform, see some parts of the Dunuang corpus available at \url{https://github.com/eroux/Dunhuang-unicode}}, some elements of the syllable were different:
+Before the orthograph reform of King རལ་པ་ཅན in the \textsc{IX}th century \textsc{C.E.}\footnote{this reform seems completely undocummented in Western language. For some documents predating the reform, see some parts of the Dunuang corpus available at \url{https://github.com/eroux/Dunhuang-unicode}}, some elements of the syllable were different:
 
 \begin{itemize}
 \item a second suffix ད (called ད་དྲག)
@@ -104,19 +104,19 @@ Note that the last two differences allowed simple disambiguation between the ར
 
 ­\subsection{Basic rules}
 
-The basic rules (or constraints) to compose a well-formed tibetan syllable can be found in many places (\cite[TournadreMST], \cite{TsheshabGrammarTopics}). They are restrictions on the possible combinations of superscript + rootletter + subscript. Ignore wasurs (as they will be discussed in a separate section), the possible combinations (not counting the raw root letters) exposed in \cite{TsheshabGrammarTopics} can be summed up as follows:
+The basic rules (or constraints) to compose a well-formed tibetan syllable can be found in many places (\cite{TournadreMST}, \cite{TsheshabGrammarTopics}). They are restrictions on the possible combinations of superscript + rootletter + subscript. Ignore wasurs (as they will be discussed in a separate section), the possible combinations (not counting the raw root letters) exposed in \cite{TsheshabGrammarTopics} can be summed up as follows:\label{mainstackdecomposition}
 
-\begin{itemize}
-\item རྐ རྒ རྔ རྗ རྙ རྟ རྡ རྣ རྦ རྨ རྩ རྫ
-\item ལྐ ལྒ ལྔ ལྕ ལྗ ལྟ ལྡ ལྤ ལྦ ལྷ
-\item སྐ སྒ སྔ སྙ སྟ སྡ སྣ སྤ སྦ སྨ སྩ
-\item ཀྱ ཁྱ གྱ པྱ ཕྱ བྱ མྱ
-\item ཀྲ ཁྲ གྲ ཏྲ ཐྲ དྲ པྲ ཕྲ བྲ སྲ ཧྲ
-\item ཀླ གླ བླ ཟླ རླ སླ
-\item རྐྱ རྒྱ རྨྱ
-\item སྐྱ སྒྱ སྤྱ སྦྱ སྨྱ
-\item སྐྲ སྒྲ སྣྲ སྤྲ སྦྲ སྨྲ
-\end{itemize} 
+\begin{description}
+\item[superscript ར] རྐ རྒ རྔ རྗ རྙ རྟ རྡ རྣ རྦ རྨ རྩ རྫ
+\item[superscript ལ] ལྐ ལྒ ལྔ ལྕ ལྗ ལྟ ལྡ ལྤ ལྦ ལྷ
+\item[superscript ས] སྐ སྒ སྔ སྙ སྟ སྡ སྣ སྤ སྦ སྨ སྩ
+\item[subscript ྱ] ཀྱ ཁྱ གྱ པྱ ཕྱ བྱ མྱ
+\item[subscript ྲ] ཀྲ ཁྲ གྲ ཏྲ ཐྲ དྲ པྲ ཕྲ བྲ སྲ ཧྲ
+\item[subscript ླ] ཀླ གླ བླ ཟླ རླ སླ
+\item[superscript ར + subscript ྱ] རྐྱ རྒྱ རྨྱ
+\item[superscript ས + subscript ྱ] སྐྱ སྒྱ སྤྱ སྦྱ སྨྱ
+\item[superscript ས + subscript ྲ] སྐྲ སྒྲ སྣྲ སྤྲ སྦྲ སྨྲ
+\end{description} 
 
 Our research in the main dictionaries\footnote{\cite{DorjeDagyig}, \cite{YisunTsikchen}, \cite{MonlamGrandDict} and \cite{DungkarEncyclopedia}.} showed that མྲ is also a standard possibility, only found in ཨ་མྲ (mango), so we consider it as an exception. \cite{TournadreMST} also lists ཤྲ, without giving any example, and we were not able to find any in the dictionaries we consulted, so we do not consider it standard in this document.
 
@@ -159,7 +159,11 @@ An interesting feature of \cite{TsheshabGrammarTopics} that we were not able to 
 
 \cite{TsheshabGrammarTopics} cites two exceptions of standard syllables not fitting in these constraints: བགླ and མདྲོན, to which we can add མྲ.
 
+\subsection{Rules for the second suffix}
+
 ­\subsection{Rules for the འ suffix}
+
+The འ suffix is quite special as it is
 
 \subsection{Rules for the Wasur}
 
@@ -170,9 +174,88 @@ An interesting feature of \cite{TsheshabGrammarTopics} that we were not able to 
 
 ­\subsection{Rules of decomposition}
 
-­\subsection{Basic rules}
+The rules for finding the different elements when reading a Tibetan syllable are necessary to understand the roles of the འ suffix and the wasur. These simple rules can be found easily (\cite{TournadreMST}, etc.), but we propose here some very complete and systematic algorithm working for all standard tibetan syllable, plus a proposal for the ambiguous cases.
 
-­\subsection{Ambiguous syllables}
+­\subsection{Rules for finding the main stack}
+
+What we propose here is to find the main stack, meaning the combination of 1 root letter, 0/1 superscript letter, 0/1 subscript letter and 0/1 wasur. Once the main stack is found, it is trivial to find the root letter and the different elements. Note that these rules are valid for standard Tibetan syllables only, not for a random combination of Tibetan characters.
+
+The following rules are meant to be applied in this particular order, and should be easy to implement for NLP purposes:
+
+\subsubsection*{Simple cases}
+
+\begin{description}
+\item[1] if the syllable contains a subscript, superscript or wasur then the main stack is what contains it (ex: in དབྱངས the main stack is བྱ because it carries the subscript ྱ)
+\item[2] if a consonant other than འ carries a vowel then it is the main stack (གཞི \rightarrow{} ཞི)
+\end{description}
+
+\subsubsection*{Explicit vowel above འ, no other explicit vowel, subscript nor superscript}
+
+\begin{description}
+\item[3] if a vowel is carried by འ and འ is the first letter then འ is the main stack (འོད \rightarrow{} འོ)
+\item[4] if a vowel is carried by an འ which is not the first letter, the main stack is before the first འ with a vowel\footnote{This rule also works for archaic tibetan using འྀས.} (མའིའོ \rightarrow{} མ)
+\end{description}
+
+\subsubsection*{No explicit vowel, subscript nor superscript}
+
+\begin{description}
+\item[5] if the syllable has more than 3 letters and ends with འང or འམ, then the main stack is right before འང or འམ\footnote{This rule could be extended for archaic tibetan with འར.}
+\item[6] if the syllable contains one consonnant, then this consonnant is the main stack
+\item[7] if the syllable contains two consonnants, then the first is the main stack (བར \rightarrow{} བ)
+\item[8] if the syllable contains three consonnants and the final consonnant is not ས, then the main stack is the second consonnant (བཟའ \rightarrow{} ཟ)
+\item[9] if the syllable contains three consonnants and the final consonnant is ས, and the first consonnant cannot be a prefix (it is not ག, ད, བ, མ nor འ), then the main stack is the first consonnant (ཐགས \rightarrow{} ཐ)
+\item[10] if the syllable contains three consonnants and the final consonnant is ས, and the first consonnant can be a prefix, and ས cannot be second prefix after the second consonnant (meaning the second consonnant is not ག, ང, བ nor མ), then the main stack is the first consonnant (གནས \rightarrow{} ག)
+\item[11] if the syllable contains four consonnants, the main stack is the second consonnant (བཟབས \rightarrow{} ཟ)
+\end{description}
+
+­\subsubsection*{Ambiguous syllables}
+
+When the syllable no explicit vowel, no superscript, no subscript, has three consonnants with a final ས, the first consonnant can be a prefix and the second consonnant is ག, ང, བ or མ, the case is ambiguous. There are 9 such cases in standard Tibetan མངས, མགས, དབས, དངས, དགས, དམས, བགས, འབས and འགས.
+
+For each of these cases we have three possible structures:
+\begin{enumerate}
+\item ས is a second suffix (ex: མངས is root leter མ, suffix ང, second suffix ས, hereafter noted མ|ངས)
+\item ས is a suffix (ex: མངས is root letter ང, prefix མ, suffix ས, noted མང|ས)
+\item ས is an affixed particle (ex: མངས is syllable མངའ transformed into མངས, root letter ང, prefix མ, suffix འ, affixed particle ས, noted མང|འ+ས)
+\end{enumerate}
+
+In order to decide where the main stack is, the only way is to take the decomposition with the highest probability according to our knowledge of the tibetan language.
+
+Let's review the different forms for cases not involving ད, prefixing by * a form unattested in the dictionaries we consulted:
+
+\begin{description}
+\item[མབས:] མ|ངས, *མང|ས, མང|འ+ས \rightarrow{} \textbf{མ} is the main stack with reasonable probability
+\item[འབས:] *འ|བས, *འབ|ས, འབ|འ+ས \rightarrow{} \textbf{བ}
+\item[མགས:] *མ|གས, *མག|ས, *མག|འ+ས \rightarrow{} impossible to determine, but \textbf{མ} as main stack is more intuitive to our Tibetan informants
+\item[བགས:] བ|གས, *བག|ས, *བག|འ+ས \rightarrow{} \textbf{བ}
+\item[འགས:] *འ|གས, འག|ས, འག|འ+ས \rightarrow{} \textbf{ག}
+\item[དབས:] *ད|བས, དབ|ས (archaic), དབ|འ+ས \rightarrow{} \textbf{བ}
+\item[དགས:] *ད|གས, དག|ས, དག|འ+ས \rightarrow{} \textbf{ག}
+\item[དངས:] ད|ངས (mispelling of དྭངས\footnote{attested in \cite{NegiDict} vol. 16.}), *དང|ས, *དང|འ+ས \rightarrow{} \textbf{ད}% TODO: verify!
+\item[དམས:] *ད|མས, དམ|ས, དམ|འ+ས \rightarrow{} \textbf{མ}
+\end{description}
+
+\subsubsection*{Wasur as a disambiguation mark}
+
+With these disambiguations in mind, we can now challenge a rule given in \cite{MugeGrammar} stating that the wasur is used for disambiguation. This rule states that in the ambiguous cases we described, the second consonnants is the main stack because if it is was the first, then the first would carry a wasur.
+
+A first obvious objection is that among these 9 cases, only 4 involve a first letter that could carry a wasur (ད). So if the wasur was really made for disambiguation, then འ, མ and བ could carry wasurs, which is never found in any grammar or any existing tibetan syllable.
+
+For these four cases, the only variants with wasurs that could be found in dictionaries are དྭངས and དྭགས (དྭམས and དྭབས are never attested). The rule works in three cases (དབས, དགས and དམས), but doesn't for དངས: the rule would indicate that it should be considered དང|ས while དང|ས doesn't exist and ད|ངས is attested (though as a mispelling).
+
+So it seems that, although the wasur is helpful to quickly disambiguate དྭངས and དྭགས, its disambiguation purpose cannot be generalized.
+
+\subsection{Rules for the complete decomposition}
+
+Once the main stack is found, prefix, vowel and wasur are immediate to find. If a superscript or subscript is present, they can be immediately found with the rules exposed in \ref{mainstackdecomposition}.
+
+For suffixes, all of them can be immediately classified between suffix, second suffix and affix particle, except ས and ར. 
+
+The disambiguation of these two suffixes can be done many times at syllable level according to the existence of not of one version of the syllable. For example ཐས in which ས can only be affixed particle, because root letter ཐ + suffix ས is nowhere to be found in dictionnaries. 
+
+But many common cases are not decidable without the context. The most common example would be བར, in which we cannot decide if ར is suffix or affixed particle. This is a very strong difficulty for some areas of NLP because this ambiguity makes phonetic transcription, particle inflection, etc. dependant of the context and thus difficult to achieve systematically. Note that this does not impact collation as both forms are strictly equivalent from a collation point of view.
+
+\section{Conclusion}
 
 ­\appendix{list of words containing the འུ suffix or wasurs}
 
