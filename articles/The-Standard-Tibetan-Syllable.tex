@@ -34,15 +34,20 @@ Documents describing the composition of the standard tibetan syllable in a super
 
 \section{Introduction}
 
-This document supposes a minimal prior knowledge on the Tibetan alphabet. We will discuss the composition of a written standard tibetan syllable (ཚིག་འབྲ).
+This document presents our research on the different possibilities and constraints in the constructions of what we will call a \emph{standard tibetan syllable} (ཁྲིམས་མཐུན་གྱི་ཚེག་བར་, litteraly \emph{legal syllable}). Most of the rules comes from the orthograph reform of King རལ་པ་ཅན་ in the \textsc{IX}th century \textsc{C.E.}\footnote{this reform seems completely undocummented in Western language. For some documents predating the reform, a few from  the Dunuang corpus available at \url{https://github.com/eroux/Dunhuang-unicode} do, but not all.}, but Tibetans also consider standard tibetan syllables the regional or archaic words\footnote{respectively marked ཡུལ and རྙིང་ in dictionaries.} still commonly used, so we included them in our research.
 
-\subsection{Standard Tibetan}
+We did not consider:
 
-- no foreign names
-- no proper nouns
-- not Dzongkha
-- no abreviations (བསྡུས་ཡིག་)
-- the group of spellings that will look tibetan to a tibetan
+\begin{itemize}
+\item translitterated sanskrit or chinese
+\item proper nouns: even the very common person names ཀརྨ་ and པདྨ་ are not consider standard Tibetan by Tibetans
+\item Dzongkha, obeying completely different rules
+\item abreviations (བསྡུས་ཡིག་)
+\end{itemize}
+
+We studied from a theoretical point of view by looking at tibetan grammar books such as \cite{TsheshabGrammarTopics}; but also from a practical point of view by looking at dictionaries that Tibetans consider reliable (\cite{DorjeDagyig}, \cite{YisunTsikchen}, \cite{MonlamGrandDict} and \cite{DungkarEncyclopedia}) and Linguistic books on Tibetan (\cite{TournadreMST}).
+
+We hope that this reserach will allow 
 
 \section{Basic syllabic elements}
 
@@ -51,14 +56,14 @@ This document supposes a minimal prior knowledge on the Tibetan alphabet. We wil
 A Standard Tibetan Syllable is traditionally described as being composed of a maximum of 8 elements :
 
 \begin{description}
-  \item[one root letter (མིང་གཞི)] among the 30 standard tibetan letters (ཀ to ཨ)
-  \item[zero or one (0/1) vowel (དབྱངས):] {\tibetanfont ◌}ི {\tibetanfont ◌\kern 0.5mm}ུ {\tibetanfont ◌}ེ or {\tibetanfont ◌}ོ
-  \item[0/1 superscript letter (མགོ་ཅན):] ར ལ or ས
-  \item[0/1 subscript letter (འདོགས་ཅན):] ྱ ྲ or ླ
-  \item[0/1 wasur (ཝ་ཟུར):] ྭ
-  \item[0/1 prefix (སྔོན་འཇུག):] ག ད བ མ or འ
-  \item[0/1 first suffix (རྗེས་འཇུག):] ག ང ད ན བ མ འ ར ལ or ས
-  \item[0/1 second suffix (ཡང་འཇུག):] ས
+  \item[one root letter (མིང་གཞི་)] among the 30 standard tibetan letters (ཀ to ཨ)
+  \item[zero or one (0/1) vowel (དབྱངས་):] {\tibetanfont ◌}ི {\tibetanfont ◌\kern 0.5mm}ུ {\tibetanfont ◌}ེ or {\tibetanfont ◌}ོ
+  \item[0/1 superscript letter (མགོ་ཅན་):] ར ལ or ས
+  \item[0/1 subscript letter (འདོགས་ཅན་):] ྱ ྲ or ླ
+  \item[0/1 wasur (ཝ་ཟུར་):] ྭ
+  \item[0/1 prefix (སྔོན་འཇུག་):] ག ད བ མ or འ
+  \item[0/1 first suffix (རྗེས་འཇུག་):] ག ང ད ན བ མ འ ར ལ or ས
+  \item[0/1 second suffix (ཡང་འཇུག་):] ས
 \end{description}
 
 Note that in traditional presentations, the wasur is counted among the subscript letters. We chose not to present things this way becauses it poses difficulties when the wasur is combined with another subscript letter, as in གྲྭ.
@@ -67,14 +72,14 @@ Note that in traditional presentations, the wasur is counted among the subscript
 
 We will discuss in this section two types of suffixes that are not described in the traditional grammars.
 
-The first is surprisingly common: འུ, acting as a diminituve and present in many words (བྱིའུ, fledgeling). See Appendix 1 for a list of words containing this suffix.
+The first is surprisingly common: འུ, acting as a diminituve and present in many words (བྱིའུ་, fledgeling). See Appendix 1 for a list of words containing this suffix.
 
 The second type is constituted by suffixes appearing only in very few words:
 
 \begin{description}
-\item[བྲའོ], a regional alternative spelling for བྲ་བོ (buckwheat)
-\item[སླེའོ], an archaic word designating the words of someone
-\item[ཀྭའི], an onomatopoeia
+\item[བྲའོ་], a regional alternative spelling for བྲ་བོ་ (buckwheat)
+\item[སླེའོ་], an archaic word designating the words of someone
+\item[ཀྭའི་], an onomatopoeia
 \end{description}
 
 \cite{TournadreMST} also indicates འེ without giving any example. As we were able to find no standard tibetan word (only proper nouns) containing it in the dictionaries we consulted, we will consider that these are not valid.
@@ -89,10 +94,10 @@ The traditional list of affixed particles is འི འོ འང འམ ར and
 
 ­\subsection{Archaic elements}
 
-Before the orthograph reform of King རལ་པ་ཅན in the \textsc{IX}th century \textsc{C.E.}\footnote{this reform seems completely undocummented in Western language. For some documents predating the reform, see some parts of the Dunuang corpus available at \url{https://github.com/eroux/Dunhuang-unicode}}, some elements of the syllable were different:
+Before the orthograph reform of King རལ་པ་ཅན་, some elements of the syllable were different:
 
 \begin{itemize}
-\item a second suffix ད (called ད་དྲག)
+\item a second suffix ད (called ད་དྲག་)
 \item the vowel {\tibetanfont ◌}ི was often written {\tibetanfont ◌}ྀ (for unknown reasons)
 \item the affixed particle ས was written འྀས
 \item the affixed particle ར was written འར
@@ -118,7 +123,7 @@ The basic rules (or constraints) to compose a well-formed tibetan syllable can b
 \item[superscript ས + subscript ྲ] སྐྲ སྒྲ སྣྲ སྤྲ སྦྲ སྨྲ
 \end{description} 
 
-Our research in the main dictionaries\footnote{\cite{DorjeDagyig}, \cite{YisunTsikchen}, \cite{MonlamGrandDict} and \cite{DungkarEncyclopedia}.} showed that མྲ is also a standard possibility, only found in ཨ་མྲ (mango), so we consider it as an exception. \cite{TournadreMST} also lists ཤྲ, without giving any example, and we were not able to find any in the dictionaries we consulted, so we do not consider it standard in this document.
+Our research in the main dictionaries\footnote{\cite{DorjeDagyig}, \cite{YisunTsikchen}, \cite{MonlamGrandDict} and \cite{DungkarEncyclopedia}.} showed that མྲ is also a standard possibility, only found in ཨ་མྲ (mango), so we consider it as an exception. \cite{TournadreMST} also lists ཤྲ, without giving any example, and we were not able to find any in the dictionaries we consulted except for proper nouns, so we do not consider it standard in this document.
 
 ­\subsection{More advanced rules}
 
@@ -254,9 +259,9 @@ When the syllable no explicit vowel, no superscript, no subscript, has three con
 
 For each of these cases we have three possible structures:
 \begin{enumerate}
-\item ས is a second suffix (ex: མངས is root leter མ, suffix ང, second suffix ས, hereafter noted མ|ངས)
-\item ས is a suffix (ex: མངས is root letter ང, prefix མ, suffix ས, noted མང|ས)
-\item ས is an affixed particle (ex: མངས is syllable མངའ transformed into མངས, root letter ང, prefix མ, suffix འ, affixed particle ས, noted མང|འ+ས)
+\item ས is a second suffix (e.g. མངས can be decomposed as root leter མ, suffix ང, second suffix ས, hereafter noted མ|ངས)
+\item ས is a suffix (e.g. མངས is root letter ང, prefix མ, suffix ས, noted མང|ས)
+\item ས is an affixed particle (e.g. མངས is syllable མངའ transformed into མངས, root letter ང, prefix མ, suffix འ, affixed particle ས, noted མང|འ+ས)
 \end{enumerate}
 
 In order to decide where the main stack is, the only way is to take the decomposition with the highest probability according to our knowledge of the tibetan language.
@@ -296,6 +301,18 @@ The disambiguation of these two suffixes can be done many times at syllable leve
 But many common cases are not decidable without the context. The most common example would be བར, in which we cannot decide if ར is suffix or affixed particle. This is a very strong difficulty for some areas of NLP because this ambiguity makes phonetic transcription, particle inflection, etc. dependant of the context and thus difficult to achieve systematically. Note that this does not impact collation as both forms are strictly equivalent from a collation point of view.
 
 \section{Conclusion}
+
+During our research we have been able to find a few rules concerning the formation of a standard tibetan syllable that were never documented before in Western language, as well as interesting exceptions to common rules including:
+
+\begin{itemize}
+\item the constraints on prefix + superscript + root letter + subscript
+\item documentation on the འུ suffix
+\item clarification on the role of wasur and rules concerning it
+\item formalization of the rules concerning the འ suffix
+\item systematization of the rules to decompose a syllable, and how to deal with ambiguous cases
+\end{itemize}
+
+This research allowed us to create a spellchecker at syllable level for standard tibetan for the Hunspell library (used in many softwares including most free softwares, LibreOffice, the Adobe softwares, etc.)\footnote{The files are available for free on \url{https://github.com/eroux/hunspell-bo}.}. This spellchecker takes a few proper names into account (just like a spell checker in a Western language), although further research should be done for it to be complete in this area. This spell checker is of course very limitted as it works only at syllable level, not word, but we hope it will provide the foundation for a more complete one.
 
 ­\appendix
 
