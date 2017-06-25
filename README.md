@@ -5,7 +5,9 @@ This repository provides resources to build Tibetan spellcheckers, and pointer t
 
 The resources are mainly the various [documents](doc/).
 
-The [syllables](syllables) directory, containing resources for checking tibetan syllables, and pointer to applications built from it.
+The [syllables](syllables) directory contains resources for checking tibetan syllables, and pointer to applications built from it.
+
+The [examples](examples) directory contains example codes.
 
 ##License
 
