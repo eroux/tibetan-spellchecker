@@ -1,10 +1,14 @@
 # Morphology of the particles
 
-NS is when there is no suffix, or suffix འུ, འི or འོ.
+`NS` is when there is no suffix nor affix, or combined suffix/affix འུ, འི and/or འོ.
 
 When ས is second suffix, the relevant column is ས, not the one of the first suffix.
 
-A dash (-) indicates that the particle gets affixed to the previous syllable. In this case, the suffix is འ is removed when present.
+For syllabes affixed with:
+- `-འམ`, the right column is མ
+- `-འང`, the right column is ང
+
+A dash (`-`) indicates that the particle gets affixed to the previous syllable. In this case, the suffix is འ is removed when present.
 
 case/suffix | ག | ང | ད | ན | བ | མ | འ | ར | ལ | ས | NS | ད་དྲག |
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

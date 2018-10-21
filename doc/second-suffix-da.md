@@ -6,16 +6,15 @@ This page is an attempt to list the syllables having invisible second suffix ད
 
 ### modern Tibetan
 
-The following seem to consensually have a second suffix ད:
+The following seem to consensually have a second suffix ད, implicit most of the time:
 
 - ཀུན
-- དཀོན (given in JB)
 - ཤིན
 - འོན
 
 ### archaic Tibetan
 
-An analysis from the Dunhuang corpus shows that following syllables take a second suffix ད:
+An analysis from the Dunhuang corpus shows that following syllables take a second suffix ད all the time:
 
 - ཀུན
 - དཀྱིལ
