@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 # This is a proof of concept code computing the mingzhi or the main stack for
-# any valid Tibetan syllable. It uses the data and algorithm described
-# in this repository.
+# any valid Tibetan syllable. It uses the algorithm described in @Hildt2018.
 #
 # The main limitation is the completely unknown behavior (including crashes) fo
 # a non-valid Tibetan syllable.

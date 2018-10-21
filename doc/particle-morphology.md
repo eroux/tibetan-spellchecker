@@ -1,6 +1,6 @@
 # Morphology of the particles
 
-`NS` is when there is no suffix nor affix, or combined suffix/affix འུ, འི and/or འོ.
+`NS` is when there is no suffix nor affix, or combined suffix/affix ending with འུ, འི and/or འོ.
 
 When ས is second suffix, the relevant column is ས, not the one of the first suffix.
 
@@ -33,7 +33,7 @@ case/suffix | ག | ང | ད | ན | བ | མ | འ | ར | ལ | ས | NS | �
 
 <sup>3</sup> archaic forms: -འིས, -འའིས.**?**
 
-<sup>4</sup> archaic form: སྟེ for all suffixes, see Miller.
+<sup>4</sup> archaic form: སྟེ for all suffixes, see `@MillerThonmi`.
 
 <sup>5</sup> པོ and བོ follow the same rules as པ and བ.
 

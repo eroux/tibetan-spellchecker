@@ -14,7 +14,7 @@ The following seem to consensually have a second suffix ད, implicit most of th
 
 ### archaic Tibetan
 
-An analysis from the Dunhuang corpus shows that following syllables take a second suffix ད all the time:
+An analysis from the Dunhuang corpus (see [this repo](https://github.com/eroux/tibetan-dadrag-analyze)) shows that following syllables take a second suffix ད all the time:
 
 - ཀུན
 - དཀྱིལ
@@ -41,21 +41,21 @@ An analysis from the Dunhuang corpus shows that following syllables take a secon
 Verbs are more difficult due to:
 
 - lack of consensus, like everything about verbs, for instance for འགྱུར:
-  - NT gives a second suffix ད on the past: གྱུརད
-  - GT gives second suffix ད on the present: འགྱུརད, but not on the past
+  - `@TournadreMST` gives a second suffix ད on the past: གྱུརད
+  - `@KhartoTenses` gives second suffix ད on the present: འགྱུརད, but not on the past
 - the same syllable almost always may or may not have a second suffix ད, which make things difficult for a spellchecker
 - even when a second suffix ད is relatively consensual (like on བསྟན), due to the above difficulties, the second suffix ད is almost never taken into account for verbs, so it can be considered more or less optional
 
-Hereafter are a few lists of second suffix ད from various sources (see [bibliography](https://github.com/eroux/tibetan-spellchecker/blob/master/doc/bibliography.md) for references).
+Hereafter are a few lists of second suffix ད from various sources:
 
-#### JB
+#### `@BacotGrammaire`
 
 - བསྒྱུར
 - བསྟན
 - གསོལ
 - བསྟེར
 
-#### CM
+#### `@TournadreClairMiroir`
 
 - བཙལ
 - བསྡུར
@@ -64,7 +64,7 @@ Hereafter are a few lists of second suffix ད from various sources (see [biblio
 - ནོན
 - མནོན 
 
-#### NT
+#### `@TournadreMST`
 
 - བསྟན
 - བསྐོར
@@ -72,7 +72,7 @@ Hereafter are a few lists of second suffix ད from various sources (see [biblio
 - ཕྱིན
 
 
-#### KN
+#### `@Namgyal2007`
 
 - བསྙལ
 - བསྙུན
@@ -81,9 +81,9 @@ Hereafter are a few lists of second suffix ད from various sources (see [biblio
 - བསྙེན
 - བསྙོན
 
-#### GT
+#### `@KhartoTenses`
 
-The biggest source is GT, according to it, the following 17 syllables always have a second suffix ད:
+The biggest source is `@KhartoTenses`, according to it, the following 17 syllables always have a second suffix ད:
 
 - བསྐྱལ
 - ཁུར
