@@ -6,7 +6,7 @@ This page is an attempt to list the syllables having invisible second suffix ད
 
 ### modern Tibetan
 
-The following seem to consensually have a second suffix ད, implicit most of the time:
+The following have a second suffix ད according to a large consensus. The dadrag is not written explicitely in most editorial conventions:
 
 - ཀུན
 - ཤིན
